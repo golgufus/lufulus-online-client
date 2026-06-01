@@ -1,0 +1,5 @@
+# Binaries are distributed via GitHub Releases, never committed to this tree.
+*.zip
+*.exe
+*.dll
+*.pdb

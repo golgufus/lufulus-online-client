@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "mandatory": true,
+  "minLauncherVersion": "0.0.0",
+  "releaseTag": "",
+  "assetUrl": "https://github.com/golgufus/lufulus-online-client/releases/latest/download/lufulus-online-client.zip",
+  "repairManifestUrl": "https://github.com/golgufus/lufulus-online-client/releases/latest/download/repair-manifest.json",
+  "sha256": "",
+  "sizeBytes": 0,
+  "contentHash": "",
+  "releasedAt": "",
+  "downloadUrl": "https://golgufus.com/download/lufulus/client",
+  "minClientBuild": "0.0.0"
+}
