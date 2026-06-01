@@ -13,9 +13,12 @@ git tree holds only small text indexes that a launcher/updater reads:
 
 ## Stable download URLs
 
+All `releases/latest/...` URLs always resolve to the newest published release.
+
 - Latest client zip: `https://github.com/golgufus/lufulus-online-client/releases/latest/download/lufulus-online-client.zip`
+- Latest manifest (the launcher reads this — flips the instant a release is published): `https://github.com/golgufus/lufulus-online-client/releases/latest/download/latest.json`
 - Latest repair manifest: `https://github.com/golgufus/lufulus-online-client/releases/latest/download/repair-manifest.json`
-- Latest manifest (raw): `https://raw.githubusercontent.com/golgufus/lufulus-online-client/main/manifest/latest.json`
+- Manifest mirror (git tree; `raw` is CDN-cached ~5 min so it can briefly lag a fresh release): `https://raw.githubusercontent.com/golgufus/lufulus-online-client/main/manifest/latest.json`
 
 ## How it is published
 
